@@ -30,6 +30,8 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
             'org.springframework.cloud:spring-cloud-starter-hystrix-dashboard',
             'org.springframework.cloud:spring-cloud-starter-eureka-server'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
 }
 
 defaultTasks 'clean', 'bootRepackage'
