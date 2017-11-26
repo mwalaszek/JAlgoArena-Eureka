@@ -25,7 +25,7 @@ open class SwaggerConfig {
 
     private fun apiInfo(): ApiInfo {
         return ApiInfoBuilder()
-                .title("APIGateway API")
+                .title("Eureka API")
                 .version("1.0.0")
                 .build()
     }
